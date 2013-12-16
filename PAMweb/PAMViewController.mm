@@ -39,7 +39,7 @@
 - (IBAction)home:(id)sender
 {
     [self checkButtons];
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://emberjs.jsbin.com/iVoxUYip/2"]]];
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://emberjs.jsbin.com/iVoxUYip/8"]]];
 }
 
 - (void)checkButtons
