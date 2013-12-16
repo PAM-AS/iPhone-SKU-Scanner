@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12C75A85848A4D4AB3D86B3A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2FBEA7BE6B411AB3B5C433 /* libPods.a */; };
 		E99EA1C3185F0BF900B94275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99EA1C2185F0BF900B94275 /* Foundation.framework */; };
 		E99EA1C5185F0BF900B94275 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99EA1C4185F0BF900B94275 /* CoreGraphics.framework */; };
 		E99EA1C7185F0BF900B94275 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99EA1C6185F0BF900B94275 /* UIKit.framework */; };
 		E99EA1CD185F0BF900B94275 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E99EA1CB185F0BF900B94275 /* InfoPlist.strings */; };
 		E99EA1CF185F0BF900B94275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E99EA1CE185F0BF900B94275 /* main.m */; };
-		E99EA1D3185F0BF900B94275 /* PAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E99EA1D2185F0BF900B94275 /* PAMAppDelegate.m */; };
+		E99EA1D3185F0BF900B94275 /* PAMAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = E99EA1D2185F0BF900B94275 /* PAMAppDelegate.mm */; };
 		E99EA1D6185F0BF900B94275 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99EA1D4185F0BF900B94275 /* Main_iPhone.storyboard */; };
 		E99EA1D9185F0BF900B94275 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99EA1D7185F0BF900B94275 /* Main_iPad.storyboard */; };
-		E99EA1DC185F0BF900B94275 /* PAMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E99EA1DB185F0BF900B94275 /* PAMViewController.m */; };
+		E99EA1DC185F0BF900B94275 /* PAMViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E99EA1DB185F0BF900B94275 /* PAMViewController.mm */; };
 		E99EA1DE185F0BF900B94275 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99EA1DD185F0BF900B94275 /* Images.xcassets */; };
 		E99EA1E5185F0BF900B94275 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99EA1E4185F0BF900B94275 /* XCTest.framework */; };
 		E99EA1E6185F0BF900B94275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99EA1C2185F0BF900B94275 /* Foundation.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		249A8E720FEE4E94BE434244 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		DD2FBEA7BE6B411AB3B5C433 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99EA1BF185F0BF900B94275 /* PAMweb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAMweb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99EA1C2185F0BF900B94275 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E99EA1C4185F0BF900B94275 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,11 +47,11 @@
 		E99EA1CE185F0BF900B94275 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E99EA1D0185F0BF900B94275 /* PAMweb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PAMweb-Prefix.pch"; sourceTree = "<group>"; };
 		E99EA1D1185F0BF900B94275 /* PAMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAMAppDelegate.h; sourceTree = "<group>"; };
-		E99EA1D2185F0BF900B94275 /* PAMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAMAppDelegate.m; sourceTree = "<group>"; };
+		E99EA1D2185F0BF900B94275 /* PAMAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PAMAppDelegate.mm; sourceTree = "<group>"; };
 		E99EA1D5185F0BF900B94275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		E99EA1D8185F0BF900B94275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		E99EA1DA185F0BF900B94275 /* PAMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAMViewController.h; sourceTree = "<group>"; };
-		E99EA1DB185F0BF900B94275 /* PAMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAMViewController.m; sourceTree = "<group>"; };
+		E99EA1DB185F0BF900B94275 /* PAMViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PAMViewController.mm; sourceTree = "<group>"; };
 		E99EA1DD185F0BF900B94275 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E99EA1E3185F0BF900B94275 /* PAMwebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAMwebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99EA1E4185F0BF900B94275 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -65,6 +68,7 @@
 				E99EA1C5185F0BF900B94275 /* CoreGraphics.framework in Frameworks */,
 				E99EA1C7185F0BF900B94275 /* UIKit.framework in Frameworks */,
 				E99EA1C3185F0BF900B94275 /* Foundation.framework in Frameworks */,
+				12C75A85848A4D4AB3D86B3A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +92,7 @@
 				E99EA1EA185F0BF900B94275 /* PAMwebTests */,
 				E99EA1C1185F0BF900B94275 /* Frameworks */,
 				E99EA1C0185F0BF900B94275 /* Products */,
+				249A8E720FEE4E94BE434244 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +112,7 @@
 				E99EA1C4185F0BF900B94275 /* CoreGraphics.framework */,
 				E99EA1C6185F0BF900B94275 /* UIKit.framework */,
 				E99EA1E4185F0BF900B94275 /* XCTest.framework */,
+				DD2FBEA7BE6B411AB3B5C433 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,11 +121,11 @@
 			isa = PBXGroup;
 			children = (
 				E99EA1D1185F0BF900B94275 /* PAMAppDelegate.h */,
-				E99EA1D2185F0BF900B94275 /* PAMAppDelegate.m */,
+				E99EA1D2185F0BF900B94275 /* PAMAppDelegate.mm */,
 				E99EA1D4185F0BF900B94275 /* Main_iPhone.storyboard */,
 				E99EA1D7185F0BF900B94275 /* Main_iPad.storyboard */,
 				E99EA1DA185F0BF900B94275 /* PAMViewController.h */,
-				E99EA1DB185F0BF900B94275 /* PAMViewController.m */,
+				E99EA1DB185F0BF900B94275 /* PAMViewController.mm */,
 				E99EA1DD185F0BF900B94275 /* Images.xcassets */,
 				E99EA1C9185F0BF900B94275 /* Supporting Files */,
 			);
@@ -162,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E99EA1F4185F0BF900B94275 /* Build configuration list for PBXNativeTarget "PAMweb" */;
 			buildPhases = (
+				E574AADD3344484388681FF7 /* Check Pods Manifest.lock */,
 				E99EA1BB185F0BF900B94275 /* Sources */,
 				E99EA1BC185F0BF900B94275 /* Frameworks */,
 				E99EA1BD185F0BF900B94275 /* Resources */,
+				215D25BAD2404569BCCCA3EE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,14 +257,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		215D25BAD2404569BCCCA3EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E574AADD3344484388681FF7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E99EA1BB185F0BF900B94275 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E99EA1CF185F0BF900B94275 /* main.m in Sources */,
-				E99EA1DC185F0BF900B94275 /* PAMViewController.m in Sources */,
-				E99EA1D3185F0BF900B94275 /* PAMAppDelegate.m in Sources */,
+				E99EA1DC185F0BF900B94275 /* PAMViewController.mm in Sources */,
+				E99EA1D3185F0BF900B94275 /* PAMAppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +431,7 @@
 		};
 		E99EA1F5185F0BF900B94275 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 249A8E720FEE4E94BE434244 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -403,6 +445,7 @@
 		};
 		E99EA1F6185F0BF900B94275 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 249A8E720FEE4E94BE434244 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -475,6 +518,7 @@
 				E99EA1F6185F0BF900B94275 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E99EA1F7185F0BF900B94275 /* Build configuration list for PBXNativeTarget "PAMwebTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +527,7 @@
 				E99EA1F9185F0BF900B94275 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
