@@ -93,7 +93,7 @@
 - (void)zxingController:(ZXingWidgetController *)controller didScanResult:(NSString *)result
 {
     NSLog(@"Scanned %@", result);
-    NSString *js = [NSString stringWithFormat:@"$('input[type=sku]').val(%@);", result];
+    NSString *js = [NSString stringWithFormat:@"$('input[type=sku]').val(%@).focus().blur();", result];
     [self.webView stringByEvaluatingJavaScriptFromString:js];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
