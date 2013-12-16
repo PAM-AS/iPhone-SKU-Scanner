@@ -53,6 +53,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="backButton" destination="sWM-8o-HOk" id="RzS-Gm-zxs"/>
+                        <outlet property="forwardButton" destination="Frw-Pf-3KP" id="9pn-sl-IVr"/>
+                        <outlet property="homeButton" destination="Rd5-UI-mie" id="FQ4-kB-ye2"/>
                         <outlet property="webView" destination="WMU-7O-9uY" id="pLf-lt-gig"/>
                     </connections>
                 </viewController>

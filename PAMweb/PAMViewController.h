@@ -14,9 +14,9 @@
 @interface PAMViewController : UIViewController <UIWebViewDelegate, ZXingDelegate>
 
 @property (nonatomic, strong) IBOutlet UIWebView *webView;
-@property (nonatomic, strong) IBOutlet UIButton *backButton;
-@property (nonatomic, strong) IBOutlet UIButton *forwardButton;
-@property (nonatomic, strong) IBOutlet UIButton *homeButton;
+@property (nonatomic, strong) IBOutlet UIBarButtonItem *backButton;
+@property (nonatomic, strong) IBOutlet UIBarButtonItem *forwardButton;
+@property (nonatomic, strong) IBOutlet UIBarButtonItem *homeButton;
 
 - (IBAction)back:(id)sender;
 - (IBAction)forward:(id)sender;
